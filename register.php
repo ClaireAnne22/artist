@@ -91,7 +91,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             text-decoration: none;
             font-size: 0.9rem;
         }
-
         .forgot-password:hover {
             text-decoration: underline;
         }
