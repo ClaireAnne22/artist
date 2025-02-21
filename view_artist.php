@@ -291,7 +291,6 @@ try {
         <?php endif; ?>
     </div>
 
-
     <div id="artistModal" class="modal">
         <div class="modal-content">
             <span class="close-btn" onclick="closeModal()">&times;</span>
