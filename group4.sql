@@ -43,13 +43,6 @@ CREATE TABLE `artist` (
 --
 
 INSERT INTO `artist` (`artist_id`, `name`, `birth_date`, `birthplace`, `nationality`, `works`, `specialty`, `image`) VALUES
-(15, 'Czarina Khan', '2222-02-22', 'alicia isabela', 'filipino', 'wala', 'matulog', 'https://hips.hearstapps.com/hmg-prod/images/dahlia-1508785047.jpg?crop=1.00xw:0.669xh;0,0.0136xh&resize=980:*'),
-(16, 'Czarina Khan', '2222-02-22', 'alicia isabela', 'filipino', 'diko alam', 'matulog', 'https://hips.hearstapps.com/hmg-prod/images/dahlia-1508785047.jpg?crop=1.00xw:0.669xh;0,0.0136xh&resize=980:*'),
-(17, 'Claire Anne Domingo', '2222-02-22', 'alicia isabela', 'Filipino', 'hatdog', 'singer', 'https://cdn.britannica.com/84/73184-050-05ED59CB/Sunflower-field-Fargo-North-Dakota.jpg'),
-(18, 'Claire Anne Domingo', '0000-00-00', 'alicia isabela', 'Filipino', 'wala', 'singer', 'https://cdn.britannica.com/84/73184-050-05ED59CB/Sunflower-field-Fargo-North-Dakota.jpg'),
-(19, 'Claire Anne Domingo', '2222-02-22', 'alicia isabela', 'Filipino', 'wala', 'singer', 'https://cdn.britannica.com/84/73184-050-05ED59CB/Sunflower-field-Fargo-North-Dakota.jpg'),
-(20, 'Claire Anne Domingo', '0000-00-00', 'alicia isabela', 'Filipino', '2222', 'singer', 'https://cdn.britannica.com/84/73184-050-05ED59CB/Sunflower-field-Fargo-North-Dakota.jpg'),
-(21, 'Czarina Khan', '2222-02-22', '22', '22', 'wala', 'singer', 'https://cdn.britannica.com/84/73184-050-05ED59CB/Sunflower-field-Fargo-North-Dakota.jpg');
 
 -- --------------------------------------------------------
 
@@ -70,12 +63,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `username`, `email`, `password_hash`, `created_at`) VALUES
-(0, 'Cza', 'czarinajane.deguzman@gmail.com', '$2y$10$cDkzXKHBVkY7WLoKOggPyOBWwLfl/E5n2TkRLoPiI.0XAT/8NMnGm', '2025-02-15 08:24:52'),
-(0, 'az', 'rkhansaif1999@gmail.com', '$2y$10$QWQKF9X3oyujARaRRFRjs.PHAhRg/YGagkaBNPRkAa8yt9a.okDKi', '2025-02-15 13:49:59'),
-(0, 'az', 'rkhansaif1999@gmail.com', '$2y$10$19Z.brcMb/W57AatGxiIjOO.DiMojO7YNEbUmV33XTcQiM417n4vK', '2025-02-15 13:58:12'),
-(0, 'admin', 'wheepup@gmail.com', '$2y$10$Ez2Va.cKmqhW3smzbslHfepciXllZAvoOWwQd/eIGlI.O/wdUTW6i', '2025-02-16 10:42:09'),
-(0, 'claire', 'claire@gmail.com', '$2y$10$QZtWiBriObH3fUfKHfOMaeJDbp.rAUhiPg8x4pvo1rwNi0Bxbq3ae', '2025-02-19 02:51:51'),
-(0, 'claire', 'claire@gmail.com', '$2y$10$FHA4M.iMviEA9NyqjVg/COiQ8TGl2y3TBSOBKkqd/2.JbM5FFSFiG', '2025-02-20 04:32:22');
+
 
 --
 -- Indexes for dumped tables
