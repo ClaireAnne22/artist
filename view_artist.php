@@ -370,7 +370,7 @@ try {
 
         function confirmDelete() {
             if (currentArtist) {
-                window.location.href = 'delete_artist.php?delete_id=' + currentArtist.id;
+                window.location.href = 'delete_artist.php?delete_id=' + currentArtist.artist_id;
             }
         }
     </script>
